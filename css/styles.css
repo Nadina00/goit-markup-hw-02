@@ -164,7 +164,9 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-color:var(--second-color)
+color:var(--second-color);
+border: transparent;
+background-color: transparent;
 }
 .filter_item:hover, 
 .filter_item:focus{
