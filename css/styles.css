@@ -26,14 +26,14 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none;
 }
-.logostyle {
+.logo_style {
     color: var(--second-color);
 }
-.link_header{
+.nav_list{
 list-style-type: none;
 }
 
-.link_text{
+.nav_link{
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -46,15 +46,15 @@ list-style-type: none;
     color: var(--logo-color);
 }
 
-.link_text:hover, .link_text:focus,
-.link_text:active {
+.nav_link:hover, .nav_link:focus,
+.nav_link:active {
     color: var(--logo-color);
 }
 
-.link_contact {
+.contact_list {
 list-style-type: none;
 }
-.link_contact_text{
+.contact_link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -62,7 +62,7 @@ list-style-type: none;
     color: var(--first-color);
     text-decoration: none;  
 }
-.link_contact_text:hover{
+.contact_link:hover{
     color: var(--logo-color);
 }
 .title {
@@ -87,10 +87,10 @@ letter-spacing: 0.06em;
     background-color: var(--address-color);
     color: var(--logo-color);
 }
-.peculiarities_item>li {
+.peculiarities_list>li {
 list-style-type: none;
 }
-.peculiarities {
+.peculiarities_subtitle {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -110,7 +110,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 color: var(--second-color);
 }
-.works_item>li, .team_item>li{
+.works_item>li, .team_list>li{
     list-style-type: none;
 }
 .team_name{
@@ -139,7 +139,7 @@ background-color: var(--background-footer);
 .logo_footer_style{
     color: var(--address-color);
 }
-.address{
+.address_item{
 list-style-type: none;
 }
 .address_link{
@@ -155,10 +155,10 @@ background-color: var(--background-footer);
     color: var(--logo-color);
 }
 /*Portfolio*/
-.filter{
+.filter_list{
 list-style-type: none;
 }
-.filter_item{
+.filter_button{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -168,25 +168,25 @@ color:var(--second-color);
 border: transparent;
 background-color: transparent;
 }
-.filter_item:hover, 
-.filter_item:focus{
+.filter_button:hover, 
+.filter_button:focus{
 color: var(--address-color);
 background-color: var(--logo-color);
 }
-.project{
+.project_list{
 list-style-type: none;
 }
 .project_link{
 text-decoration: none;}
 
-.project_text{
+.project_subtitle{
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--second-color);
 }
-.project_item{
+.project_text{
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
