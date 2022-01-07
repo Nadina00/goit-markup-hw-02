@@ -5,32 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link href="./css/styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="" class="logo">Web<span class="logo_style">Studio</span></a>
-            <ul class="nav_list">
-            <li class="nav_item"><a href="./index.html" class="nav_link">Студия</a></li>
-            <li class="nav_item"><a href="" class="nav_link current">Портфолио</a> </li>
-            <li class="nav_item"><a href="" class="nav_link">Контакты</a></li>
-        </ul>
-      </nav>
-        <ul class="contact_list">
-            <li class="contact_item"><a href="mailto:info@devstudio.com" class="contact_link">info@devstudio.com</a></li>
-            <li class="contact_item"><a href="tel:+380961111111" class="contact_link">+38 096 111 11 11</a> </li>
-        </ul> 
-    </header>
+    <div class="container">
+        <header class="header">
+            <nav>
+                <div class="header_nav">
+                <a href="" class="logo">Web<span class="logo_style">Studio</span></a>
+                <ul class="nav_list">
+                <li class="nav_item"><a href="./index.html" class="nav_link ">Студия</a></li>
+                <li class="nav_item"><a href="" class="nav_link current">Портфолио</a> </li>
+                <li class="nav_item"><a href="" class="nav_link">Контакты</a></li>
+            </ul>
+            </div>
+          </nav>
+            <ul class="contact_list">
+                <li class="contact_item"><a href="mailto:info@devstudio.com" class="contact_link">info@devstudio.com</a></li>
+                <li class="contact_item"><a href="tel:+380961111111" class="contact_link">+38 096 111 11 11</a> </li>
+            </ul> 
+        </header>
     <main>
-        <section>
+        <section class="section">
             <h1>Filter</h1>
             <ul class="filter_list">
                 <li class="filter_item">
-                    <button type="button" class="filter_button" >Все</button>
+                    <button type="button" class="filter_button all" >Все</button>
                 </li>
                 <li class="filter_item">
                     <button type="button" class="filter_button">Веб-сайты</button>
@@ -113,5 +117,6 @@
         </ul>
     </address>
     </footer>
+</div>
 </body>
 </html>

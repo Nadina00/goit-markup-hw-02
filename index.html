@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link href="./css/styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
+    <div class="container">
+    <header class="header">
         <nav>
+            <div class="header_nav">
             <a href="" class="logo">Web<span class="logo_style">Studio</span></a>
             <ul class="nav_list">
             <li class="nav_item"><a href="" class="nav_link current">Студия</a></li>
             <li class="nav_item"><a href="./portfolio.html" class="nav_link">Портфолио</a> </li>
             <li class="nav_item"><a href="" class="nav_link">Контакты</a></li>
         </ul>
+        </div>
       </nav>
         <ul class="contact_list">
             <li class="contact_item"><a href="mailto:info@devstudio.com" class="contact_link">info@devstudio.com</a></li>
@@ -26,11 +30,11 @@
         </ul> 
     </header>
     <main>
-        <section class="hero">
+        <section class="section hero">
             <h1 class="title">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="button_title">Заказать услугу</button>
         </section>
-        <section>
+        <section class="section peculiarities">
             <h2> Особенности</h2>
             <ul class="peculiarities_list">
             <li class="peculiarities_item" > <h3 class="peculiarities_subtitle">Внимание к деталям</h3>
@@ -49,21 +53,21 @@
             </li>
             </ul>
         </section>
-        <section class="works">
+        <section class="section works">
             <h2 class="works_title">Чем мы занимаемся</h2>
-            <ul class="works_item">
-                <li>
+            <ul class="works_list">
+                <li class="works_item">
                     <img src="./image/box1.jpg" alt="компьютер" width="370">
                 </li>
-                <li>
+                <li class="works_item">
                     <img src="./image/box2.jpg" alt="телефон" width="370">
                 </li>
-                <li>
+                <li class="works_item">
                     <img src="./image/box3.jpg" alt="планшет" width="370">
                 </li>
             </ul>
         </section>
-        <section class="team">
+        <section class="section team">
             <h2 class="team_title">Наша команда</h2>
             <ul class="team_list">
                 <li class="team_item">
@@ -90,6 +94,7 @@
         </section>
     </main>
     <footer class="footer">
+        <div class="footer_style">
         <a href="" class="logo_footer">Web<span class="logo_footer_style"> Studio</span></a>
         <address>
         <ul class="address_list">
@@ -104,6 +109,8 @@
          </li>
         </ul>
     </address>
+</div>
     </footer>
+</div>
 </body>
 </html>
